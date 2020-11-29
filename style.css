@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(background.jpg);
+    background-size: cover;
+    font-family: Lato;
+    font-weight: 300;
+    position: relative;
+    color: #555;
+}
+
+.outer-block{
+    width:550px;
+    height: 500px;
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+}
+
+h3{
+    padding-left: 100px;
+    font-family: Lato;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 1200;
+    
+}
+
+#subject1{
+    top: 107px;
+    left: 300px;
+}
+#subject2{
+    top: 157px;
+    left: 300px;
+}
+#subject3{
+    top: 206px;
+    left: 300px;
+}
+#subject4{
+    top: 256px;
+    left: 300px;   
+}
+#subject5{
+    top: 304px;
+    left: 300px;
+}
+.marks{
+   position: absolute;
+    width: 150px;
+    color: #555;
+    outline: none;
+    font-family: Lato;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+}
+
+.display{
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+
+#totale{
+    padding-top: 77px;
+}
+
+#totalt{
+    left: 300px;
+    top: 401px;
+    
+}
+
+#percentage{
+    left: 300px;
+    top:450px;
+}
+
+
+.result{
+    position: absolute;
+    width: 150px;
+    color: #555;
+    font-family: Lato;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    left: 196px;
+    top: 357px;
+    
+}
